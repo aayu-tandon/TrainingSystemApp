@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sessions" max_length="40" name="x_475692_training_sessions" sizeclass="2" type="collection">
+        <element label="Assignment" max_length="40" name="assignment" type="string"/>
+        <element label="Batch ID" max_length="32" name="batch_id" reference="x_475692_training_batches" type="reference"/>
+        <element label="id" max_length="40" name="id" type="integer"/>
+        <index name="index">
+            <element name="batch_id"/>
+        </index>
+    </element>
+</database>

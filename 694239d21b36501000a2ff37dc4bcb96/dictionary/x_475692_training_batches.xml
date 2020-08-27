@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Batches" max_length="40" name="x_475692_training_batches" sizeclass="1" type="collection">
+        <element label="Course" max_length="32" name="course" reference="x_475692_training_courses" type="reference"/>
+        <element display="true" label="id" max_length="40" name="id" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="Trainer" max_length="32" name="trainer" reference="x_475692_training_trainers" type="reference"/>
+        <index name="index">
+            <element name="trainer"/>
+        </index>
+        <index name="index2">
+            <element name="course"/>
+        </index>
+    </element>
+</database>

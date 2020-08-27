@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Count students in batch 3</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[gs.info('starting script');
+var g=new GlideRecord('x_475692_training_student_coursewise_details');
+g.addEncodedQuery('id=3');
+g.query();
+//gs.info('hello');
+if(g.next())
+	{
+gs.info('if me');
+	}
+else
+	{
+		gs.info('else me');
+	}
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-25 13:03:37</sys_created_on>
+        <sys_id>fb353ed21b3a501000a2ff37dc4bcb04</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Count students in batch 3</sys_name>
+        <sys_package display_value="Training System" source="x_475692_training">694239d21b36501000a2ff37dc4bcb96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training System">694239d21b36501000a2ff37dc4bcb96</sys_scope>
+        <sys_update_name>sys_script_fix_fb353ed21b3a501000a2ff37dc4bcb04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-25 21:07:21</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training System">694239d21b36501000a2ff37dc4bcb96</application>
+        <file_path/>
+        <instance_id>8f47823fdb2777004d2bac44d496196e</instance_id>
+        <instance_name>dev92858</instance_name>
+        <name>sys_script_fix_fb353ed21b3a501000a2ff37dc4bcb04</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;flush_cache&gt;false&lt;/flush_cache&gt;&lt;name&gt;Count students in batch 3&lt;/name&gt;&lt;record_for_rollback&gt;false&lt;/record_for_rollback&gt;&lt;run_once&gt;true&lt;/run_once&gt;&lt;script&gt;&lt;![CDATA[gs.info('starting script');
+var g=new GlideRecord('x_475692_training_student_coursewise_details');
+g.addEncodedQuery('id=3');
+g.query();
+//gs.info('hello');
+if(g.next())
+	{
+gs.info('if me');
+	}
+else
+	{
+		gs.info('else me');
+	}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-25 13:03:37&lt;/sys_created_on&gt;&lt;sys_id&gt;fb353ed21b3a501000a2ff37dc4bcb04&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Count students in batch 3&lt;/sys_name&gt;&lt;sys_package display_value="Training System" source="x_475692_training"&gt;694239d21b36501000a2ff37dc4bcb96&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training System"&gt;694239d21b36501000a2ff37dc4bcb96&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_fb353ed21b3a501000a2ff37dc4bcb04&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-25 21:07:21&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1432166877</payload_hash>
+        <record_name>Count students in batch 3</record_name>
+        <reverted_from/>
+        <source>e54239d21b36501000a2ff37dc4bcb98</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-25 21:07:21</sys_created_on>
+        <sys_id>6ba428a61bbe501000a2ff37dc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174277260150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-25 21:07:21</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>e3a428a6eabe5010ffe68aaaedd23f9d</update_guid>
+        <update_guid_history>e3a428a6eabe5010ffe68aaaedd23f9d:-1432166877,b584a0a6e1be50107839aaec651bd2cc:31546548,8f44a0a6cbbe50109a690d7b8c872ec8:-1859546965,5803e826c7be50109f4c26a2ed044033:989326985,a562e0a28cbe501029f80008f5ccb2c2:-1379737678,5bf9b2d6f13a5010540ffddbaf91b03a:-855816237,24693ed6423a50107e187b1aacda9629:-855747548,7159b6d6463a501043d3345e43843442:1000388417,0d98b6965e3a50105c2bc5c64920add0:-1041571015,17587a96dd3a501056992b2fdac2eb41:-1953225082,5c283a56883a501067433a659e3260d5:-540439718,76177256d63a5010e928e8383325e3f3:661179711,5996fa16d23a5010c6a99067e6f42396:-449544236,f026fed2b43a501009023825418feee9:1325101609,f1f53216fe3a50102ba956c4c2fe2295:-1578169685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-25 21:21:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>0a1176c5047b4ce8986e264d2c9bbf10</sys_id>
+        <sys_metadata>fb353ed21b3a501000a2ff37dc4bcb04</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Count students in batch 3</sys_name>
+        <sys_package display_value="Training System" source="x_475692_training">694239d21b36501000a2ff37dc4bcb96</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training System">694239d21b36501000a2ff37dc4bcb96</sys_scope>
+        <sys_scope_delete display_value="">0c59cf58c1464b488a9e6a6f25fbc144</sys_scope_delete>
+        <sys_update_name>sys_script_fix_fb353ed21b3a501000a2ff37dc4bcb04</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_fb353ed21b3a501000a2ff37dc4bcb04">6ba428a61bbe501000a2ff37dc4bcb9d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-25 21:21:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

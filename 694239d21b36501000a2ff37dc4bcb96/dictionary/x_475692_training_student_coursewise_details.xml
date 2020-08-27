@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Student CourseWise Details" max_length="40" name="x_475692_training_student_coursewise_details" sizeclass="2" type="collection">
+        <element label="Batch id" max_length="32" name="batch_id" reference="x_475692_training_batches" type="reference"/>
+        <element label="Course id" max_length="32" name="course_id" reference="x_475692_training_courses" type="reference"/>
+        <element label="id" max_length="40" name="id" type="integer"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="Student id" max_length="32" name="student_id" reference="x_475692_training_students" type="reference"/>
+        <element label="Trainer id" max_length="32" name="trainer_id" reference="x_475692_training_trainers" type="reference"/>
+        <index name="index">
+            <element name="course_id"/>
+        </index>
+        <index name="index2">
+            <element name="batch_id"/>
+        </index>
+        <index name="index3">
+            <element name="student_id"/>
+        </index>
+        <index name="index4">
+            <element name="trainer_id"/>
+        </index>
+    </element>
+</database>

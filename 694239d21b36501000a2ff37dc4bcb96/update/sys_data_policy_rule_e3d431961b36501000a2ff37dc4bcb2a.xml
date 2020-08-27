@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>name</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-25 08:19:12</sys_created_on>
+        <sys_data_policy display_value="Sets the name field to mandatory">2bd431961b36501000a2ff37dc4bcb26</sys_data_policy>
+        <sys_id>e3d431961b36501000a2ff37dc4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="Training System" source="x_475692_training">694239d21b36501000a2ff37dc4bcb96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training System">694239d21b36501000a2ff37dc4bcb96</sys_scope>
+        <sys_update_name>sys_data_policy_rule_e3d431961b36501000a2ff37dc4bcb2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-25 08:19:12</sys_updated_on>
+        <table>x_475692_training_location</table>
+    </sys_data_policy_rule>
+</record_update>

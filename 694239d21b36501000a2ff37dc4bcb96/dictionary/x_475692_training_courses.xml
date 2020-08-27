@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Courses" max_length="40" name="x_475692_training_courses" sizeclass="1" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Duration" max_length="40" name="duration" type="glide_duration"/>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="id" max_length="40" name="id" type="integer"/>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <element display="true" label="Title" mandatory="true" max_length="40" name="title" type="string"/>
+        <element label="Trainer" max_length="32" name="trainer" reference="x_475692_training_trainers" type="reference"/>
+        <element label="Type" max_length="40" name="type" type="string"/>
+        <index name="index">
+            <element name="trainer"/>
+        </index>
+    </element>
+</database>
