@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-25 10:11:55</sys_created_on>
-        <sys_id>6d5e065e1b76501000a2ff37dc4bcb58</sys_id>
+        <sys_id>b0f4355fdb725010aa1b2bfa4b961969</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Session id</sys_name>
         <sys_package display_value="Training System" source="x_475692_training">694239d21b36501000a2ff37dc4bcb96</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Training System">694239d21b36501000a2ff37dc4bcb96</sys_scope>
         <sys_update_name>sys_dictionary_x_475692_training_daily_batchwise_details_session_id</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-25 10:11:55</sys_updated_on>
+        <sys_updated_on>2020-08-28 10:53:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

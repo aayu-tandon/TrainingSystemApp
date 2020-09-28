@@ -42,7 +42,7 @@
         <update_guid_history>a3b66256c5f6501050b5fc94db7aceea:1356130918</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_475692_training_students.x_475692_training.Training Coordinator">febaa25a1bf6501000a2ff37dc4bcb2c</sys_audit_delete>
+        <sys_audit_delete display_value="">febaa25a1bf6501000a2ff37dc4bcb2c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-25 12:14:33</sys_created_on>

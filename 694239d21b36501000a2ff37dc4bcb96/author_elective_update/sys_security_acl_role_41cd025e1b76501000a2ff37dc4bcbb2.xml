@@ -42,7 +42,7 @@
         <update_guid_history>c1cd025e07765010854c173ce16c86b4:1587954457</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_475692_training_student_coursewise_details.x_475692_training.student_coursewis">908fee5e1bf6501000a2ff37dc4bcbfb</sys_audit_delete>
+        <sys_audit_delete display_value="">908fee5e1bf6501000a2ff37dc4bcbfb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-25 12:35:23</sys_created_on>

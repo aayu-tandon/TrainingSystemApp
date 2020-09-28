@@ -42,7 +42,7 @@
         <update_guid_history>e2524e520c765010599572d4b545fe7f:-1195078137</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_475692_training_trainers.x_475692_training.trainers_user">25e422d21bf6501000a2ff37dc4bcb59</sys_audit_delete>
+        <sys_audit_delete display_value="">25e422d21bf6501000a2ff37dc4bcb59</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-25 11:49:03</sys_created_on>

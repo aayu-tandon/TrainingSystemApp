@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-25 09:18:07</sys_created_on>
-        <sys_id>ee524e521b76501000a2ff37dc4bcb7f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>1df4755fdb725010aa1b2bfa4b9619a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>x_475692_training_trainers</sys_name>
         <sys_package display_value="Training System" source="x_475692_training">694239d21b36501000a2ff37dc4bcb96</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training System">694239d21b36501000a2ff37dc4bcb96</sys_scope>
         <sys_update_name>sys_dictionary_x_475692_training_trainers_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-08-26 10:46:05</sys_updated_on>
+        <sys_updated_on>2020-08-29 10:35:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

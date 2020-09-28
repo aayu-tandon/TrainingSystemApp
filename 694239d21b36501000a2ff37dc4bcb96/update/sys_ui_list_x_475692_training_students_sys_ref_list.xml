@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>first_name</element>
-            <list_id display_value="x_475692_training_students" element="NULL" name="x_475692_training_students" parent="NULL" relationship="NULL" sys_domain="global" view="c68501532f320010639893acf699b66c">0fc3fe121b3a501000a2ff37dc4bcbc3</list_id>
+            <list_id display_value="x_475692_training_students" element="NULL" name="x_475692_training_students" parent="NULL" relationship="NULL" sys_domain="global" view="f47d23722f320010a5cad4a72799b66c">0fc3fe121b3a501000a2ff37dc4bcbc3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-08-25 12:54:09</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">c68501532f320010639893acf699b66c</view>
+            <view display_value="Reference List" name="sys_ref_list">f47d23722f320010a5cad4a72799b66c</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

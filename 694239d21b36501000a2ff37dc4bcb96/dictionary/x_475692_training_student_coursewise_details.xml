@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Student CourseWise Details" max_length="40" name="x_475692_training_student_coursewise_details" sizeclass="2" type="collection">
+    <element label="Student CourseWise Details" max_length="40" name="x_475692_training_student_coursewise_details" sizeclass="3" type="collection">
         <element label="Batch id" max_length="32" name="batch_id" reference="x_475692_training_batches" type="reference"/>
         <element label="Course id" max_length="32" name="course_id" reference="x_475692_training_courses" type="reference"/>
         <element label="id" max_length="40" name="id" type="integer"/>

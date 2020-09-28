@@ -42,7 +42,7 @@
         <update_guid_history>faae029ebf7650100f6ddd5d7077390b:-326060863</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_475692_training_daily_batchwise_details.x_475692_training.daily_batchwise_deta">c310f69e1bf6501000a2ff37dc4bcb2f</sys_audit_delete>
+        <sys_audit_delete display_value="">c310f69e1bf6501000a2ff37dc4bcb2f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-25 12:38:02</sys_created_on>
